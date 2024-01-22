@@ -17,7 +17,7 @@
    - ![Hero with Assigned Position](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/0f87e0dd-c136-4efa-94f2-87b99156f166)
 
 3. **Discarding Assigned Positions**:
-   - To change a hero's position, right-click the hero and select `Discard current selection`.
+   - To change a hero's position, right-click the hero and select `Discard current position`.
    - ![Discarding Selection](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/69de0608-21eb-4fe2-a775-33ed83371e06)
 
 ### Creating Your Soccer Squad
