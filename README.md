@@ -34,9 +34,6 @@
    - ![Squad List](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/a95e60fc-c698-43f1-a8b4-5e34b5456f0c)
    - ![Squad List](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/a94f8c91-16aa-46dc-b012-e4e520cc2a0e)
 
-The "Approach Discussion" section you've added is a great idea, as it provides insight into the technical aspects of your project. Here's a slightly revised version for clarity and flow:
-
----
 
 ### Approach Discussion:
 
