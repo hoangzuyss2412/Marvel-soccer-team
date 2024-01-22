@@ -43,7 +43,7 @@ Key aspects of the project include:
 
 - **State Management**: The application employs React's `useState` hook to maintain a dictionary that tracks each hero's assigned soccer position and their details. This approach ensures that the state is updated efficiently and accurately as users interact with the app.
 
-= **Contextual State Management**: State changes in a parent component are distributed to child components through a React context, facilitated by the `useContext` hook.
+- **Contextual State Management**: State changes in a parent component are distributed to child components through a React context, facilitated by the `useContext` hook.
   
 - **Interactive UI**: To enhance user interaction, the right-click functionality is implemented using the `onContextMenu` event. This allows users to assign positions to heroes in an intuitive and interactive manner.
 
