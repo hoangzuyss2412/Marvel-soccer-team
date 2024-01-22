@@ -34,4 +34,21 @@
    - ![Squad List](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/a95e60fc-c698-43f1-a8b4-5e34b5456f0c)
    - ![Squad List](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/a94f8c91-16aa-46dc-b012-e4e520cc2a0e)
 
+The "Approach Discussion" section you've added is a great idea, as it provides insight into the technical aspects of your project. Here's a slightly revised version for clarity and flow:
 
+---
+
+### Approach Discussion:
+
+This project is implemented using React.js. The Marvel API, accessible at `https://developer.marvel.com/docs`, serves as the backbone for fetching character data. In this project, I used only the `/v1/public/characters` endpoint to retrieve detailed information about 20 Marvel heroes.
+
+Key aspects of the project include:
+
+- **State Management**: The application employs React's `useState` hook to maintain a dictionary that tracks each hero's assigned soccer position and their details. This approach ensures that the state is updated efficiently and accurately as users interact with the app.
+
+- **Propagating Changes**: Changes in the state are propagated to child components using the `useEffect` hook.
+  
+- **Interactive UI**: To enhance user interaction, the right-click functionality is implemented using the `onContextMenu` event. This allows users to assign positions to heroes in an intuitive and interactive manner.
+
+
+  
