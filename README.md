@@ -32,4 +32,6 @@
    - Once the squad is successfully created, you'll be directed to a new page showcasing your heroes and their assigned positions.
    - Click `Back to home page` to return to the main screen.
    - ![Squad List](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/a95e60fc-c698-43f1-a8b4-5e34b5456f0c)
+   - ![Squad List](https://github.com/hoangzuyss2412/Marvel-soccer-team/assets/100951023/a94f8c91-16aa-46dc-b012-e4e520cc2a0e)
+
 
