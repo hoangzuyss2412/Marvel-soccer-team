@@ -4,7 +4,7 @@
 
 1. **Launch the App**:
    - Clone the project and navigate to the correct directory.
-   - Run the command `npm install` to install all neccessary dependencies  `npm start` to initiate the app in development mode.
+   - Run the command `npm install` to install all neccessary dependencies and  `npm start` to initiate the app in development mode.
    - Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
 
 ### Interacting with Hero Cards
