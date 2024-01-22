@@ -20,7 +20,7 @@ export function Squad({ heroPositions, heroImage, heroDetail }) {
         </div>
 
     {
-         Object.keys(heroImage).map((key) => {
+        Object.keys(heroImage).map((key) => {
             return (
                 <div className="box-content">
                     <div className="right-box">

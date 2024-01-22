@@ -5,26 +5,23 @@ import axios from "axios"
 import { useState, useEffect, useContext} from "react";
 import { useNavigate } from "react-router-dom";
 
-import { SquadContext, SquadImageContext } from "../App";
+import { SquadContext} from "../App";
 
 export function Main(){
-    const [url, setUrl] = useState("https://gateway.marvel.com/v1/public/characters?offset=1&ts=1&apikey=ee17bb5eb193560352b47115265aee4f&hash=617bdee7116a797260ea70909aeeb088");
+    const url = "https://gateway.marvel.com/v1/public/characters?offset=1&ts=1&apikey=ee17bb5eb193560352b47115265aee4f&hash=617bdee7116a797260ea70909aeeb088";
     const [item, setItem] = useState([]);
     const [showContextMenu, setShowContextMenu] = useState(false);
     const [notEnoughPlayer, setNotEnoughPlayer] = useState(false);
-    const [createdSquad, setCreatedSquad]  = useState(false);
     const [heroPositions, setHeroPositions] = useContext(SquadContext); 
-    const [heroImage, setHeroImage] = useContext(SquadImageContext);
     const navigate = useNavigate();
 
     useEffect(() => {
         const fetch = async () => {
             const res = await axios.get(url);
             setItem(res.data.data.results);
-            console.log(res.data.data.results);
         }
         fetch();
-    }, [url])
+    }, [])
 
     const handleClick = () => {
         setShowContextMenu(false);
@@ -40,8 +37,6 @@ export function Main(){
             setNotEnoughPlayer(false);
             navigate("/squad");
         }
-        console.log(heroPositions);
-        console.log(heroImage);
     }
 
     return (
@@ -64,7 +59,7 @@ export function Main(){
                 {
                     notEnoughPlayer ? 
                     <small>
-                        <p style={{color: "red"}}> Error: Not enough players nor position to create a squad.</p>
+                        <p style={{color: "red"}}> Error: Not enough players or positions to create a squad.</p>
                     </small>
                     :
                     null
