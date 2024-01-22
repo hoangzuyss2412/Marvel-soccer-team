@@ -1,8 +1,7 @@
 import React from "react"
 import { useState, useContext } from "react";
-import { SquadContext } from "./Main";
+import { SquadContext } from "../App";
 import { ContextMenu } from "./ContextMenu";
-import { useNavigate } from "react-router-dom";
 
 
 export function Card({ data, showContextMenu, setShowContextMenu}) {
@@ -15,7 +14,7 @@ export function Card({ data, showContextMenu, setShowContextMenu}) {
         setContextMenuPosition({ x: e.pageX, y: e.pageY })
         setContextMenuID(item.id);
     }
-    return (      
+        return (      
             data.map((item) => {
                 return (
                     <div key={item.id} onContextMenu={(e) => handleRightClick(e, item)}>                    
@@ -29,8 +28,8 @@ export function Card({ data, showContextMenu, setShowContextMenu}) {
                         {
                             (showContextMenu) && (contextMenuID === item.id) && (
                                 <ContextMenu x={contextMenuPosition.x} y={contextMenuPosition.y} 
-                                setShowContextMenu={setShowContextMenu} setHeroPositions={setHeroPositions} 
-                                heroPositions={heroPositions} item={item}/>
+                                setShowContextMenu={setShowContextMenu} 
+                                item={item}/>
                             )
                         }
                     </div>

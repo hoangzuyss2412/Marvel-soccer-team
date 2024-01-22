@@ -135,6 +135,24 @@ p{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
 }
 
+.homepage-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff; 
+    border: none;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+    cursor: pointer; 
+    margin-top: 20px
+}
+
+.homepage-button button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+}
 
 .box-content{
     width: 100%;
